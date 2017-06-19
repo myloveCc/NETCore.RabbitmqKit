@@ -2,7 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+    <PackageId>NETCore.RabbitMQKit</PackageId>
+    <Authors>Lvcc</Authors>
+    <Company>Lvcc</Company>
+    <Description>RabbitMQ extensions tool. Easy use redis in asp.net core.</Description>
+    <Copyright>Copyright 2017 (c) Lvcc. All rights reserved</Copyright>
+    <PackageLicenseUrl>https://github.com/myloveCc/NETCore.RabbitmqKit/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/myloveCc/NETCore.RabbitmqKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/myloveCc/NETCore.RabbitmqKit</RepositoryUrl>
+    <RepositoryType />
+    <PackageTags>RabbitMQ ASP.NETCore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
