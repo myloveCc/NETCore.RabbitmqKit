@@ -13,14 +13,14 @@ namespace NETCore.RabbitmqKit
         /// <summary>
         /// rediskit options
         /// </summary>
-        private readonly IRabbitmqKitOptions _RabbitmqKitOptions;
+        private readonly RabbitmqKitOptions _RabbitmqKitOptions;
         private readonly ConnectionFactory _ConnectionFactory;
 
         /// <summary>
         /// ctor
         /// </summary>
         /// <param name="options"><see cref="IRabbitmqKitOptions"/></param>
-        public RabbitmqProvider(IRabbitmqKitOptions options)
+        public RabbitmqProvider(RabbitmqKitOptions options)
         {
             Check.Argument.IsNotEmpty(options.HostNames, nameof(options.HostNames));
 

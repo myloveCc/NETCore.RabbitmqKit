@@ -5,7 +5,7 @@ using NETCore.RabbitmqKit.Shared;
 
 namespace NETCore.RabbitmqKit.Infrastructure
 {
-    public class RabbitmqKitOptions : IRabbitmqKitOptions
+    public class RabbitmqKitOptions 
     {
         /// <summary>
         /// 
