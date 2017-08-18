@@ -13,11 +13,11 @@ namespace NETCore.RabbitmqKit.Infrastructure
         IServiceCollection serviceCollection { get; }
 
         /// <summary>
-        /// get redis options and add ConnectionMultiplexer to sercice collection
+        /// add rabbitmq service
         /// </summary>
-        /// <param name="options">redis options</param>
-        /// <param name="lifetime"></param>
+        /// <param name="options">rabbitmq options</param>
+        /// <param name="lifetime"><see cref="ServiceLifetime"/></param>
         /// <returns></returns>
-        IRabbitmqKitOptionsBuilder UseRabbitMQ(IRabbitmqKitOptions options, ServiceLifetime lifetime = ServiceLifetime.Scoped);
+        IRabbitmqKitOptionsBuilder UseRabbitMQ(RabbitmqKitOptions options, ServiceLifetime lifetime = ServiceLifetime.Scoped);
     }
 }

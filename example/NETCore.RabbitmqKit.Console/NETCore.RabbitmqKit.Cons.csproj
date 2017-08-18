@@ -2,15 +2,15 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>NETCore.RabbitmqKit.Cons</AssemblyName>
     <RootNamespace>NETCore.RabbitmqKit.Cons</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
-    <PackageReference Include="RabbitMQ.Client" Version="4.1.3" />
-    <PackageReference Include="StructureMap.Microsoft.DependencyInjection" Version="1.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
+    <PackageReference Include="StructureMap.Microsoft.DependencyInjection" Version="1.3.1" />
   </ItemGroup>
 
   <ItemGroup>

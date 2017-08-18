@@ -61,7 +61,7 @@ namespace NETCore.RabbitmqKit.Cons
                 };
 
                 channel.BasicConsume(queue: "asp.netcore.web",
-                                     noAck: true,
+                                     autoAck: true,
                                      consumer: consumer);
 
                 Console.WriteLine(" Press [enter] to exit.");

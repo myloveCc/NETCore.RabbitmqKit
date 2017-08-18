@@ -30,7 +30,7 @@ namespace NETCore.RabbitmqKit.Infrastructure
         /// <param name="options">rabbitmq options</param>
         /// <param name="lifetime">sevice left time</param>
         /// <returns></returns>
-        public IRabbitmqKitOptionsBuilder UseRabbitMQ(IRabbitmqKitOptions options, ServiceLifetime lifetime = ServiceLifetime.Scoped)
+        public IRabbitmqKitOptionsBuilder UseRabbitMQ(RabbitmqKitOptions options, ServiceLifetime lifetime = ServiceLifetime.Scoped)
         {
             Check.Argument.IsNotNull(options, nameof(options), "The rabbitmq options is null");
 
@@ -47,7 +47,7 @@ namespace NETCore.RabbitmqKit.Infrastructure
         /// add core service 
         /// </summary>
         /// <param name="options"></param>
-        private void AddProviderService(IRabbitmqKitOptions options)
+        private void AddProviderService(RabbitmqKitOptions options)
         {
             RabbitmqProvider provider = new RabbitmqProvider(options);
 
