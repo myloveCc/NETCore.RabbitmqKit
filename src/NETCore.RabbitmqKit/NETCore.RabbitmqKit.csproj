@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>2.0.0</Version>
     <PackageId>NETCore.RabbitMQKit</PackageId>
     <Authors>Lvcc</Authors>
     <Company>Lvcc</Company>
@@ -12,13 +12,14 @@
     <PackageLicenseUrl>https://github.com/myloveCc/NETCore.RabbitmqKit/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/myloveCc/NETCore.RabbitmqKit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/myloveCc/NETCore.RabbitmqKit</RepositoryUrl>
-    <RepositoryType />
+    <RepositoryType>git</RepositoryType>
     <PackageTags>RabbitMQ ASP.NETCore</PackageTags>
+    <PackageReleaseNotes>NETCore.RabbitMQKit update .net core 2.0 rtm</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.1" />
-    <PackageReference Include="RabbitMQ.Client" Version="4.1.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.0.1" />
   </ItemGroup>
 
 </Project>
